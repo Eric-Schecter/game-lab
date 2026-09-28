@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "noEmit": true,
+        "module": "esnext",
+        "target": "es6",
+        "lib": [
+            "ES2019",
+            "dom"
+        ],
+        "sourceMap": true,
+        "jsx": "react-jsx",
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "skipLibCheck": true,
+        "experimentalDecorators": true,
+        "noUnusedLocals": true,
+        "downlevelIteration": true,
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "allowSyntheticDefaultImports": true,
+        "skipDefaultLibCheck": true,
+        "allowJs": true,
+        "types": [
+            "@webgpu/types"
+        ]
+    },
+    "ts-node": {
+        "transpileOnly": true,
+        "compilerOptions": {
+            "module": "CommonJS",
+            "strict": false
+        }
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
